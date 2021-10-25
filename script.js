@@ -23,11 +23,13 @@ function setTheme(mode){
 	if(mode == 'light'){
 		document.getElementById('theme-style').href = 'stylesheet1.css';
 		document.getElementById('gh').src = 'images/gh.png'
+		document.getElementById('social_img').src = 'images/gh4.png'
 	}
 
 	if(mode == 'blue'){
 		document.getElementById('theme-style').href = 'blue.css';
 		document.getElementById('gh').src = 'images/gh2.png'
+		document.getElementById('social_img').src = 'images/gh5.png'
 		
 	}
 
